@@ -1,7 +1,5 @@
 "use strict";
 
-console.warn("TASK-03");
-
 const images = [
   {
     url:
@@ -30,7 +28,6 @@ const gallery = document.querySelector("#gallery");
 //     </li>`;
 //   gallery.insertAdjacentHTML("beforeend", patternString);
 // });
-// console.log(gallery);
 // gallery.style.display = "flex";
 
 // potion-02
@@ -48,7 +45,6 @@ function createGallary(images) {
 const markUp = createGallary(images);
 gallery.insertAdjacentHTML("beforeend", markUp);
 gallery.style.display = "flex";
-console.log(gallery);
 
 // // option-03
 // function getGallaryItems() {
@@ -64,5 +60,4 @@ console.log(gallery);
 // }
 
 // getGallaryItems();
-// console.log(gallery);
 // gallery.style.display = "flex";

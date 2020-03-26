@@ -1,7 +1,5 @@
 "use strict";
 
-console.warn("TASK-07");
-
 const ref = {
   controller: document.querySelector("#font-size-control"),
   text: document.querySelector("#text")

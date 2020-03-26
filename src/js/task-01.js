@@ -1,14 +1,16 @@
 "use strict";
 
-console.warn("TASK-01");
+console.log("TASK-01:");
 
-const categories = document.querySelector("ul#categories");
-const items = document.querySelectorAll(".item");
+const ref = {
+  categories: document.querySelector("ul#categories"),
+  items: document.querySelectorAll(".item")
+};
 
-const calculateCategories = categories.children.length;
+const calculateCategories = ref.categories.children.length;
 console.log(`В списке ${calculateCategories} категории.`);
 
-items.forEach(item => {
+ref.items.forEach(item => {
   const category = item.querySelector("h2").textContent;
   const quantity = item.querySelectorAll("ul li").length;
   console.log(`Категория: ${category}

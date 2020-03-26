@@ -9,3 +9,8 @@
 #validation-input.invalid {
   border-color: #f44336;
 }
+
+.distance {
+  color: #20a161;
+  margin: 10px;
+}

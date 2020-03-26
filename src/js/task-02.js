@@ -1,7 +1,5 @@
 "use strict";
 
-console.warn("TASK-02");
-
 const ingredients = [
   "Картошка",
   "Грибы",
@@ -21,4 +19,3 @@ ingredients.forEach(ingredient => {
 });
 
 ingredientsList.append(createIngredientsList);
-console.log(ingredientsList);

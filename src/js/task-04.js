@@ -1,6 +1,5 @@
 "use strict";
 
-console.warn("TASK-04");
 const ref = {
   decrement: document.querySelector("button[data-action='decrement']"),
   increment: document.querySelector("button[data-action='increment']"),

@@ -1,7 +1,5 @@
 "use strict";
 
-console.warn("TASK-05");
-
 const ref = {
   input: document.querySelector("#name-input"),
   output: document.querySelector("#name-output")

@@ -8,16 +8,17 @@
   </head>
   <body>
     <h1>Module-07</h1>
-    <!-- При посещении рабочей страницы (GitHub pages) задания, в консоли нету ошибок и предупреждений -->
-    <abbr
-      title="В HTML есть список категорий ul#categories. Напиши скрипт, который выполнит следующие операции.
+    <div class="distance">
+      <abbr
+        title="В HTML есть список категорий ul#categories. Напиши скрипт, который выполнит следующие операции.
 Посчитает и выведет в консоль количество категорий в ul#categories, то есть элементов li.item. Получится: 'В списке 3 категории.'.
 Для каждого элемента li.item в списке ul#categories, найдет и выведет в консоль текст заголовка элемента (тега h2) и количество элементов в категории (всех вложенных в него элементов li).
     Например для первой категории получится:
     Категория: Животные
     Количество элементов: 4"
-      >TASK-01</abbr
-    >
+        >TASK-01</abbr
+      >
+    </div>
     <ul id="categories">
       <li class="item">
         <h2>Животные</h2>
@@ -47,57 +48,65 @@
         </ul>
       </li>
     </ul>
-    <abbr
-      title="Напиши скрипт, который для каждого элемента массива ingredients создаст отдельный li, после чего вставит все li за одну операцию в список ul.ingredients.
+    <div class="distance">
+      <abbr
+        title="Напиши скрипт, который для каждого элемента массива ingredients создаст отдельный li, после чего вставит все li за одну операцию в список ul.ingredients.
 Для создания DOM-узлов используй document.createElement()."
-      >TASK-02</abbr
-    >
+        >TASK-02</abbr
+      >
+    </div>
     <ul id="ingredients"></ul>
-    <!-- task-03 -->
-    <abbr
-      title="Напиши скрипт для создания галлереи изображений по массиву данных.
+
+    <div class="distance">
+      <abbr
+        title="Напиши скрипт для создания галлереи изображений по массиву данных.
 Используй массив объектов images для создания тегов img вложенных в li.
 Для создания разметки используй шаблонные строки и insertAdjacentHTML().
     
 Все элементы галереи должны добавляться в DOM за одну операцию вставки.
 Добавь минимальное оформление галереи флексбоксами или гридами через css-классы."
-      >TASK-03</abbr
-    >
+        >TASK-03</abbr
+      >
+    </div>
     <ul id="gallery"></ul>
-    <!-- task-04 -->
-    <abbr
-      title="Счетчик состоит из спана и кнопок, которые должны увеличивать и уменьшать значение счетчика на 1.
+
+    <div class="distance">
+      <abbr
+        title="Счетчик состоит из спана и кнопок, которые должны увеличивать и уменьшать значение счетчика на 1.
 
 Создай переменную counterValue в которой будет хранится текущее значение счетчика.
 Создай функции increment и decrement для увеличения и уменьшения значения счетчика
 Добавь слушатели кликов на кнопки, вызовы функций и обновление интерфейса"
-      >TASK-04</abbr
-    >
+        >TASK-04</abbr
+      >
+    </div>
     <div id="counter">
       <button type="button" data-action="decrement">-1</button>
       <span id="value">0</span>
       <button type="button" data-action="increment">+1</button>
     </div>
-    <!-- task-05 -->
-    <abbr
-      title="Напиши скрипт который, при наборе текста в инпуте input#name-input (событие input),
+    <div class="distance">
+      <abbr
+        title="Напиши скрипт который, при наборе текста в инпуте input#name-input (событие input),
 подставляет его текущее значение в span#name-output.
 
 Если инпут пустой, в спане должна отображаться строка 'незнакомец'."
-      >TASK-05</abbr
-    >
+        >TASK-05</abbr
+      >
+    </div>
     <br />
     <input type="text" placeholder="Ваше имя?" id="name-input" />
     <h1>Привет, <span id="name-output">незнакомец</span>!</h1>
-    <!-- task-06 -->
-    <abbr
-      title="Напиши скрипт, который бы при потере фокуса на инпуте, проверял его содержимое на правильное количество символов.
+    <div class="distance">
+      <abbr
+        title="Напиши скрипт, который бы при потере фокуса на инпуте, проверял его содержимое на правильное количество символов.
 
 Сколько символов должно быть в инпуте, указывается в его атрибуте data-length.
 Если введено подходящее количество, то border инпута становится зеленым, если неправильное - красным.
 Для добавления стилей, используй CSS-классы valid и invalid."
-      >TASK-06</abbr
-    >
+        >TASK-06</abbr
+      >
+    </div>
     <br />
     <input
       type="text"
@@ -106,19 +115,35 @@
       placeholder="Введи 6 символов"
     />
     <br />
-    <!-- task-07 -->
-    <br />
-    <abbr
-      title="Напиши скрипт, который реагирует на изменение значения input#font-size-control (событие input) и изменяет инлайн-стиль span#text обновляя свойство font-size. В результате при перетаскивании ползунка будет меняться размер текста."
-      >TASK-07</abbr
-    >
+    <div class="distance">
+      <br />
+      <abbr
+        title="Напиши скрипт, который реагирует на изменение значения input#font-size-control (событие input) и изменяет инлайн-стиль span#text обновляя свойство font-size. В результате при перетаскивании ползунка будет меняться размер текста."
+        >TASK-07</abbr
+      >
+    </div>
     <br />
     <input id="font-size-control" type="range" />
     <br />
     <span id="text">Абракадабра!</span>
-    <!-- task-08 -->
-    <br />
-    <abbr title="">TASK-08</abbr>
+    <div class="distance">
+      <br />
+      <abbr
+        title="Напиши скрипт создания и очистки коллекции элементов.
+Пользователь вводит количество элементов в input и нажимает кнопку Создать, после чего рендерится коллекция.
+При нажатии на кнопку Очистить, коллекция элементов очищается.
+    
+Создай функцию createBoxes(amount), которая принимает 1 параметр amount - число.
+Функция создает столько div, сколько указано в amount и добавляет их в div#boxes.
+    
+  Каждый созданный div:
+Имеет случайный rgb цвет фона
+Размеры самого первого div - 30px на 30px
+Каждый следующий div после первого, должен быть шире и выше предыдущего на 10px
+Создай функцию destroyBoxes(), которая очищает div#boxes."
+        >TASK-08</abbr
+      >
+    </div>
     <div id="controls">
       <input type="number" min="0" max="100" step="1" />
       <button type="button" data-action="render">Создать</button>
@@ -126,13 +151,14 @@
     </div>
     <div id="boxes"></div>
     <!--  -->
-    <!-- <script src="./src/js/task-01.js"></script> -->
-    <!-- <script src="./src/js/task-02.js"></script> -->
-    <!-- <script src="./src/js/task-03.js"></script> -->
-    <!-- <script src="./src/js/task-04.js"></script> -->
-    <!-- <script src="./src/js/task-05.js"></script> -->
-    <!-- <script src="./src/js/task-06.js"></script> -->
-    <!-- <script src="./src/js/task-07.js"></script> -->
-    <script src="./src/js/task-08.js"></script>
+    <script src="./src/js/task-01.js" type="module"></script>
+    <script src="./src/js/task-02.js" type="module"></script>
+    <script src="./src/js/task-03.js" type="module"></script>
+    <script src="./src/js/task-04.js" type="module"></script>
+    <script src="./src/js/task-05.js" type="module"></script>
+    <script src="./src/js/task-06.js" type="module"></script>
+    <script src="./src/js/task-07.js" type="module"></script>
+    <script src="./src/js/task-08.js" type="module"></script>
+    <!-- <script src="./src/js/modalWindow.js" type="module"></script> -->
   </body>
 </html>
